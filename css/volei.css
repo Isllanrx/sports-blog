@@ -42,6 +42,8 @@
 .rules,
 .players {
   padding: 100px 12% 0 12%;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1000px;
 }
 
 .history-container {
