@@ -1,0 +1,99 @@
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-8) 20px 60px;
+}
+
+.article-nav {
+  margin-bottom: var(--space-8);
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--clr-nav);
+  font-family: var(--font-body);
+  font-weight: 600;
+  transition: color var(--ease-fast);
+}
+
+.back-link:hover {
+  color: var(--clr-text);
+}
+
+.article-content {
+  background-color: var(--clr-white);
+  padding: var(--space-10);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+
+.article-header {
+  margin-bottom: var(--space-8);
+  border-bottom: 2px solid var(--clr-border);
+  padding-bottom: var(--space-6);
+}
+
+.article-header h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  color: var(--clr-black);
+  line-height: var(--leading-tight);
+  margin-top: var(--space-4);
+}
+
+.article-date {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--clr-text-muted);
+  display: block;
+}
+
+.article-body {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  color: var(--clr-text);
+}
+
+/* ── Badge Styling (Reused from News) ── */
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: var(--radius-xl);
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--clr-white);
+}
+
+.badge.futebol { background-color: var(--clr-futebol); }
+.badge.basquete { background-color: var(--clr-basquete); }
+.badge.volei { background-color: var(--clr-volei); }
+.badge.default { background-color: var(--clr-nav); }
+
+/* ── Content Elements ──────────────────── */
+.article-body p {
+  margin-bottom: var(--space-6);
+}
+
+.article-body img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  margin: var(--space-8) 0;
+}
+
+/* ── Mobile ────────────────────────────── */
+@media (max-width: 768px) {
+  .article-content {
+    padding: var(--space-6);
+  }
+
+  .article-header h1 {
+    font-size: var(--text-2xl);
+  }
+}

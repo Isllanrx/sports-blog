@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <!-- CSS no style.css -->
-    <link rel="stylesheet" href="/style.css" />
-  
-    <!-- Toolkit de ícones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-    <!-- Carrega a top bar e footer -->
-    <script src="/scripts/base.js"></script>
-  
-    <!-- JS Para carregar as postagens JSON -->
-    <script src="posts.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon" />
 
-    <title>Postagens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <title>Admin — Deletar Post</title>
+
+  <link rel="stylesheet" href="/css/global.css" />
+
+  <script src="/js/base.js" defer></script>
+  <script src="/js/posts.js" defer></script>
 </head>
 <body>
-  <div id="divNoticias">
-    
-  </div>
-    
+  <main class="container">
+    <header class="news-header">
+      <h1>Gerenciar Postagens</h1>
+      <p>Selecione uma postagem para apagar do banco de dados.</p>
+    </header>
+    <div id="divNoticias" class="admin-list"></div>
+  </main>
 </body>
 </html>

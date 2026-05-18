@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Editor </title>
-    <link rel="stylesheet" href="editor.css">
-  <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="../../scripts/base.js"></script>
-</head>
-<body onload=>
-    <h1 class="page-title"> Blog Esportes </h1>
-  <div class="editor">
-    <section class="text-editor"> 
-        <div class="editor-actions">
-          <input type="text" name="" placeholder="TÍTULO" id="titulo">
-            <div class="btn-group">
-                
-                <button id="title-action" onclick="format('heading', 'h2')"> <i class="material-icons"> title </i> </button>
-                <button id="bold-action" onclick="format('bold')"> <i class="material-icons"> format_bold </i> </button>
-                <button id="italic-action" onclick="format('italic')"> <i class="material-icons"> format_italic </i>  </button>
-                <button id="link-action" onclick="link()"> <i class="material-icons"> insert_link </i> </button>
-                <button id="quote-action" onclick="quote()"> <i class="material-icons"> format_quote </i> </button>
-                <button id="bullet-action" onclick="format('insertunorderedlist')"> <i class="material-icons"> format_list_bulleted </i></button>
-                <button id="numbered-action" onclick="format('insertorderedlist')"> <i class="material-icons"> format_list_numbered </i> </button>
-            </div>
-          
-          <input type="text" name="" placeholder="CATEGORIA" id="categoria">
-        </div>
-    
-        <div class="text-zone"> </div>
-      
-      <button onclick="Postar()" id="b_postar">
-        Postar!
-      </button>
-    </section>
-    
-  </div>
-    
-  
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon" />
 
-    <script src="editor.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <title>Admin — Novo Post</title>
+
+  <link rel="stylesheet" href="/css/editor.css" />
+  <link rel="stylesheet" href="/css/global.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="/js/base.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1 class="page-title">Blog Esportes — Editor</h1>
+    <div class="editor">
+      <section class="text-editor">
+        <div class="editor-actions">
+          <input type="text" name="" placeholder="TÍTULO" id="titulo" />
+          <div class="btn-group">
+            <button id="title-action"    onclick="format('heading', 'h2')">       <i class="material-icons">title</i></button>
+            <button id="bold-action"     onclick="format('bold')">                <i class="material-icons">format_bold</i></button>
+            <button id="italic-action"   onclick="format('italic')">              <i class="material-icons">format_italic</i></button>
+            <button id="link-action"     onclick="link()">                        <i class="material-icons">insert_link</i></button>
+            <button id="quote-action"    onclick="quote()">                       <i class="material-icons">format_quote</i></button>
+            <button id="bullet-action"   onclick="format('insertunorderedlist')"> <i class="material-icons">format_list_bulleted</i></button>
+            <button id="numbered-action" onclick="format('insertorderedlist')">   <i class="material-icons">format_list_numbered</i></button>
+          </div>
+          <input type="text" name="" placeholder="CATEGORIA" id="categoria" />
+        </div>
+        <div class="text-zone"></div>
+        <button onclick="Postar()" id="b_postar">Postar!</button>
+      </section>
+    </div>
+  </main>
+
+  <script src="/js/editor.js"></script>
 </body>
 </html>

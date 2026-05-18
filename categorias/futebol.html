@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Futebol: história, regras e os melhores jogadores de todos os tempos." />
+    <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <title>Futebol - Blog de Esportes</title>
 
-    <!-- CSS no style.css -->
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../styles/futebol.css" />
-
-    <!-- Toolkit de ícones -->
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/futebol.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-    <!-- Carrega a top bar e footer -->
-    <script src="../scripts/base.js"></script>
+    <script src="/js/base.js" defer></script>
   </head>
   <body>
     <main>
@@ -22,9 +23,10 @@
         <div class="introduction">
           <h1>Futebol</h1>
           <p>
-            Bem-vindo ao nosso site dedicado ao mundo do futebol! Se você é um fã apaixonado pelo esporte mais popular do mundo, um jogador entusiasmado, ou apenas alguém que deseja 
-            aprender mais sobre as táticas, jogadas e jogadores lendários, você veio ao lugar certo. Explore nosso conteúdo e mergulhe no emocionante universo do futebol conosco! 
-            Acompanhe as notícias e resultados dos principais campeonatos nacionais e internacionais, aprenda sobre as regras e estratégias do jogo e descubra curiosidades sobre jogadores famosos.
+            Bem-vindo ao mundo do futebol! Aqui você encontra tudo sobre o esporte mais popular do planeta — táticas, regras, jogadores lendários e as histórias que moldaram o jogo.
+          </p>
+          <p>
+            Explore o conteúdo e fique por dentro dos principais campeonatos nacionais e internacionais.
           </p>
         </div>
       </section>
@@ -46,7 +48,9 @@
           <div class="img-box">
             <div class="img">
               <img
-                src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/bola-futebol-antiga.webp?v=1681929438567"
+                src="/assets/images/historia-futebol-upscaled.png"
+                alt="Bola da Copa do Mundo de 1930"
+                loading="lazy"
               />
             </div>
             <span>Bola da Copa do Mundo de 1930</span>
@@ -56,103 +60,55 @@
       <section class="rules">
         <div class="rules-container">
           <div class="rules-title">
-            <h2>Regras</h2>
+            <h2>História e Curiosidades</h2>
           </div>
           <div class="rules-grid">
             <div class="rules-box">
-              <h3>Jogadores</h3>
+              <h3>Origem do Esporte</h3>
               <p>
-                A partida é disputada por duas equipes, com 11 jogadores cada, com cada uma delas podendo fazer 3 substituições.
+                O futebol moderno surgiu na Inglaterra em meados do século XIX. A primeira associação de futebol foi fundada em Londres, em 1863, estabelecendo as bases das regras que conhecemos hoje.
+              </p>
+              <p>
+                Originalmente, o esporte era praticado em escolas públicas inglesas com regras que variavam drasticamente entre as instituições até a unificação.
               </p>
             </div>
             <div class="rules-box">
               <h3>Tempo da partida</h3>
               <p>
-                O jogo é dividido em dois tempos de 45 minutos cada, com um intervalo de 15 minutos entre eles,
-                podendo ter acrescimo de alguns minutos em cada final de tempo.
+                O jogo é dividido em dois tempos de 45 minutos cada, com um intervalo de 15 minutos entre eles. Ao final de cada tempo, o árbitro pode adicionar acréscimos para compensar paradas.
               </p>
             </div>
             <div class="rules-box">
-              <h3>Faltas</h3>
-              <p>
-                No futebol, existem diferentes tipos de faltas que um jogador pode cometer durante uma partida. Alguns exemplos incluem: <br />
-                Faltas de contato físico: são cometidas quando um jogador entra em contato físico 
-                com o adversário de maneira imprudente, descuidada ou violenta, por exemplo, empurrando ou dando um carrinho;
-                <br />
-                Faltas táticas: são cometidas quando um jogador interrompe ou impede o avanço do adversário de maneira deliberada,
-                geralmente para impedir um gol ou uma jogada perigosa.; <br />
-                Faltas verbais ou de comportamento: são cometidas quando um jogador usa palavras ou gestos abusivos,
-                ofensivos ou discriminatórios contra outro jogador ou o árbitro.; <br />
-                Mão na bola: ocorre quando um jogador toca a bola com a mão ou o braço de maneira intencional ou sem intenção,
-                dependendo da situação; <br />
-                Impedimento: é cometido quando um jogador está em posição de impedimento, ou seja, mais perto da linha de gol
-                adversária do que a bola e o penúltimo adversário no momento em que a bola é jogada para ele. <br />
-                As faltas podem ser punidas com cartão amarelo ou vermelho, sendo que o vermelho o jogador é expulso da partida,
-                e quando recebe um catão amarelo caso volte a receber o mesmo na partida, ele recebe um cartão
-                vermelho e acaba sendo expulso da partida.
-              </p>
+              <h3>Faltas e Punições</h3>
+              <ul>
+                <li><strong>Cartão Amarelo:</strong> Aplicado como uma advertência formal por conduta antidesportiva ou faltas persistentes.</li>
+                <li><strong>Cartão Vermelho:</strong> Expulsão imediata do jogador, deixando sua equipe com um atleta a menos em campo.</li>
+                <li><strong>Impedimento:</strong> Ocorre quando um atacante está à frente do último defensor no momento do passe.</li>
+              </ul>
             </div>
             <div class="rules-box">
-              <h3>Técnicas do futebol</h3>
-              <p>
-                Existem várias técnicas de futebol que os jogadores podem usar
-                para melhorar seu desempenho em campo. Algumas das técnicas mais
-                importantes incluem: <br />
-                Passe: acertar a bola para um companheiro de equipe com precisão e força. <br />
-                Drible: movimentar a bola em diferentes direções com movimentos rápidos e
-                habilidosos dos pés, para superar os adversários.<br />
-                Chute: acertar a bola com precisão para marcar um gol
-                ou passá-la para um companheiro de equipe.<br />
-                Controle de bola: manter a posse da bola enquanto a
-                movimenta em diferentes direções.<br />
-                Cabeceio: acertar a bola com a cabeça, redirecionando-a para
-                um companheiro de equipe ou para o gol adversário.<br />
-                Marcação: pressionar o adversário que está com a bola
-                para recuperá-la.<br />
-                Desarme: tirar a bola do adversário, usando os pés ou o
-                corpo de maneira legal.<br />
-                Posicionamento: saber se posicionar corretamente em campo para
-                interceptar passes ou receber a bola.<br />
-                Antecipação: prever as jogadas do adversário e agir antes que
-                ele tenha a chance de fazer a jogada.
-              </p>
+              <h3>Posições em Campo</h3>
+              <ul>
+                <li><strong>Goleiro:</strong> Único que pode usar as mãos (dentro da área).</li>
+                <li><strong>Defensores:</strong> Zagueiros e laterais que protegem a meta.</li>
+                <li><strong>Meio-campistas:</strong> Responsáveis pela transição e armação.</li>
+                <li><strong>Atacantes:</strong> Focados na finalização e marcação de gols.</li>
+              </ul>
             </div>
             <div class="rules-box">
               <h3>Substituições</h3>
               <p>
-                No futebol, as equipes podem fazer até três substituições durante o
-                jogo para permitir que os jogadores descansarem ou para fazer ajustes 
-                táticos. A substituição pode ser feita em qualquer momento do jogo, 
-                desde que o árbitro autorize. O jogador substituído não pode retornar 
-                ao jogo, exceto em casos de substituição do goleiro por lesão. A equipe
-                deve sinalizar ao quarto árbitro antes da substituição. As substituições
-                podem afetar significativamente o resultado do jogo.
+                As equipes podem fazer substituições para permitir descanso ou ajustes táticos. Na maioria das competições profissionais atuais, são permitidas até 5 substituições em 3 paradas técnicas.
               </p>
             </div>
             <div class="rules-box">
-              <h3>Pontuação</h3>
-              <p>
-                No futebol, o objetivo é marcar gols na meta adversária. Cada gol marcado 
-                equivale a um ponto. A equipe que marcar mais gols vence a partida. Em alguns 
-                torneios, a vitória pode render três pontos, enquanto o empate concede um ponto 
-                para cada equipe.
-              </p>
-            </div>
-            <div class="rules-box">
-              <h3>Lances livres</h3>
-              <p>
-                No futebol, os lances livres são cobranças concedidas pela arbitragem
-                em casos de falta cometida por um jogador da equipe adversária. <br />
-                No lance livre direto, o jogador que sofreu a falta pode chutar
-                diretamente para o gol adversário, sem a necessidade de outro 
-                jogador tocar na bola antes. <br />
-                Já no lance livre indireto, a bola precisa ser tocada por outro jogador
-                antes de ir em direção ao gol adversário.<br />
-                O pênalti é uma cobrança concedida em caso de falta dentro da área.
-                A cobrança é feita a uma distância de 11 metros do gol e somente o 
-                goleiro pode defender. O objetivo é marcar um gol, e em caso de defesa,
-                a cobrança pode ser repetida em casos específicos.
-              </p>
+              <h3>Benefícios para a Saúde</h3>
+              <ul>
+                <li>Melhora da resistência cardiovascular e aeróbica.</li>
+                <li>Fortalecimento muscular, especialmente nos membros inferiores.</li>
+                <li>Desenvolvimento da coordenação motora e agilidade.</li>
+                <li>Fomento ao trabalho em equipe e disciplina.</li>
+              </ul>
             </div>
           </div>
           <div class="rules-title">
@@ -160,7 +116,9 @@
           </div>
           <div class="rules-quadra">
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/futebolcampo.jpg?v=1681929571151"
+              src="/assets/images/campo_de_futebol-upscaled.png"
+              alt="Campo de futebol com marcações"
+              loading="lazy"
             />
           </div>
         </div>
@@ -173,7 +131,9 @@
           <div class="players-box">
             <span>Pelé</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/pele.jpg?v=1681930103953"
+              src="/assets/images/pele-upscaled.png"
+              alt="Pelé"
+              loading="lazy"
             />
             <p>
               Com sua carreira em alto nível com vitórias de Copa do Mundo,
@@ -188,7 +148,9 @@
           <div class="players-box">
             <span>Cristiano Ronaldo</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/cr7.jpg?v=1681930107322"
+              src="/assets/images/cristiano_ronaldo-upscaled.png"
+              alt="Cristiano Ronaldo"
+              loading="lazy"
             />
             <p>
               Ele mostrava poucos sinais de que seria a mais brilhante das
@@ -206,7 +168,9 @@
           <div class="players-box">
             <span>Lionel Messi</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/messi.jpg?v=1681930110491"
+              src="/assets/images/lionel-messi-upscaled.png"
+              alt="Lionel Messi"
+              loading="lazy"
             />
             <p>
               O membro chave da maior equipe de clube na história, já que
@@ -228,7 +192,9 @@
           <div class="players-box">
             <span>Diego Maradona</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/maradona.jpg?v=1681930119108"
+              src="/assets/images/diego-maradona-upscaled.png"
+              alt="Diego Maradona"
+              loading="lazy"
             />
             <p>
               Maradona jogou em uma era quando as defesas agiam com brutalidade
@@ -243,7 +209,9 @@
           <div class="players-box">
             <span>Vinícios Júnior</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/vinicius-jr-flamengo-emelec.webp?v=1681946356605"
+              src="/assets/images/vinicius_junior-upscaled.png"
+              alt="Vinícius Júnior"
+              loading="lazy"
             />
             <p>
               Vinícius Júnior é um jovem talento do futebol brasileiro, formado pelo
@@ -253,6 +221,7 @@
               de vários títulos importantes sendo o protagonista da Champion league na
               temporado 21/22. Atualmente ele é considerado o melhor jogador do Mundo,
               pelos principais nomes do mundo do futebol e por incontáveis espectadores.
+            </p>
           </div>
         </div>
       </section>

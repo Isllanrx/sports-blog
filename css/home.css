@@ -1,0 +1,122 @@
+
+.carrossel{
+  height: 75vh;
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  box-shadow: 0 8px 24px hsla(228, 66%, 45%, .25);
+  overflow: hidden;
+}
+
+.imagens {
+  flex: 1;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.imagens img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(45%);
+}
+
+.imagens .texto {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: clamp(1.5rem, 5vw, 5rem);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-content{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding: var(--space-8) 0 0;
+  gap: 0;
+}
+
+.home-card{
+  background-color: var(--clr-white);
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  padding: var(--space-12) var(--space-6);
+  box-shadow: var(--shadow-card);
+  margin: 2%;
+}
+
+.home-card h2{
+  height: fit-content;
+  margin: 0px;
+  border-bottom: 4px solid var(--clr-black);
+  font-family: var(--font-display);
+  color: var(--clr-black);
+  font-size: 300%;
+}
+
+.home-card p{
+  font-family: var(--font-body);
+  color: var(--clr-black);
+  margin: 0 0 0.8em;
+  font-size: var(--text-md);
+  line-height: var(--leading-relaxed);
+}
+
+.home-card p:last-child {
+  margin-bottom: 0;
+}
+
+.home-card:nth-of-type(2) {
+  margin-bottom: 110px;
+}
+
+/* ── Tablet ────────────────────────────── */
+@media (max-width: 768px) {
+  .carrossel {
+    height: 50vh;
+  }
+
+  .home-card {
+    max-width: 95%;
+    padding: var(--space-8) var(--space-4);
+  }
+
+  .home-card h2 {
+    font-size: 200%;
+  }
+
+  .home-card p {
+    font-size: 2.5vh;
+  }
+}
+
+/* ── Mobile ────────────────────────────── */
+@media (max-width: 480px) {
+  .carrossel {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .imagens {
+    height: 38vw;
+    width: 100%;
+    flex: none;
+  }
+
+  .imagens .texto {
+    font-size: 8vw;
+  }
+
+  .home-card:nth-of-type(2) {
+    margin-bottom: 80px;
+  }
+}

@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Basquete: história, regras e os melhores jogadores de todos os tempos." />
+    <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <title>Basquete - Blog de Esportes</title>
 
-    <!-- CSS no style.css -->
-    <link rel="stylesheet" href="./style.css"/>
-    <link rel="stylesheet" href="./styles/basquete.css" />
-
-    <!-- Toolkit de ícones -->
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/basquete.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-    <!-- Carrega a top bar e footer -->
-    <script src="../scripts/base.js"></script>
+    <script src="/js/base.js" defer></script>
   </head>
 
   <body>
@@ -23,11 +24,10 @@
         <div class="introduction">
           <h1>Basquete</h1>
           <p>
-            Bem-vindo ao nosso site dedicado ao mundo do basquete! Se você é um
-            fã apaixonado pelo esporte, um jogador entusiasmado, ou apenas
-            alguém que deseja aprender mais sobre esse jogo emocionante, você
-            veio ao lugar certo. Explore nosso conteúdo e mergulhe no
-            emocionante universo do basquete conosco!
+            Bem-vindo ao mundo do basquete! Aprenda sobre as regras, conheça os maiores jogadores e acompanhe os eventos mais emocionantes do esporte.
+          </p>
+          <p>
+            Explore o conteúdo e mergulhe no universo do basquete conosco.
           </p>
         </div>
       </section>
@@ -50,7 +50,9 @@
           <div class="img-box">
             <div class="img">
               <img
-                src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/jamesnaismith.webp?v=1681558973835"
+                src="/assets/images/bola-basquete-upscaled.png"
+                alt="James Naismith, criador do basquete"
+                loading="lazy"
               />
             </div>
             <span>James Naismith, criador do basquete</span>
@@ -60,98 +62,57 @@
       <section class="rules">
         <div class="rules-container">
           <div class="rules-title">
-            <h2>Regras</h2>
+            <h2>História e Fundamentos</h2>
           </div>
           <div class="rules-grid">
             <div class="rules-box">
-              <h3>Jogadores</h3>
+              <h3>A Criação</h3>
               <p>
-                Cada equipe é formada por 5 jogadores, podendo ter até 7
-                jogadores reservas.
+                O basquetebol foi inventado em 1891 por James Naismith, um professor de educação física canadense, em Springfield, Massachusetts.
+              </p>
+              <p>
+                O objetivo era criar um esporte que pudesse ser praticado em ambientes fechados durante o rigoroso inverno americano, sendo menos violento que o futebol americano.
               </p>
             </div>
             <div class="rules-box">
-              <h3>Tempo da partida</h3>
+              <h3>Tempo e Pontuação</h3>
               <p>
-                4 quartos de 10 minutos. Intervalos de 2 minutos após o fim do
-                primeiro e terceiro quartos e de 15 minutos após o segundo
-                quarto(metade do jogo).
+                Uma partida profissional dura 4 quartos (10 ou 12 minutos cada). Os arremessos podem valer 1 ponto (lance livre), 2 pontos (dentro da linha) ou 3 pontos (fora da linha).
               </p>
             </div>
             <div class="rules-box">
-              <h3>Faltas</h3>
+              <h3>Tipos de Faltas</h3>
+              <ul>
+                <li><strong>Pessoal:</strong> Contato ilegal que prejudica o adversário.</li>
+                <li><strong>Antidesportiva:</strong> Falta grave cometida sem intenção de jogar a bola.</li>
+                <li><strong>Técnica:</strong> Conduta imprópria de jogadores ou comissão técnica.</li>
+                <li><strong>Desqualificante:</strong> Ato de extrema violência que expulsa o infrator.</li>
+              </ul>
+            </div>
+            <div class="rules-box">
+              <h3>Posições Estratégicas</h3>
+              <ul>
+                <li><strong>Armador:</strong> O "cérebro" do time, organiza as jogadas.</li>
+                <li><strong>Ala-Armador:</strong> Especialista em arremessos de média e longa distância.</li>
+                <li><strong>Ala:</strong> Jogador versátil que atua no perímetro e infiltrações.</li>
+                <li><strong>Ala-Pivô:</strong> Combina força física com habilidade de arremesso.</li>
+                <li><strong>Pivô:</strong> Atua próximo à cesta, dominante em rebotes e bloqueios.</li>
+              </ul>
+            </div>
+            <div class="rules-box">
+              <h3>Controle de Bola</h3>
               <p>
-                No basquete existem diferentes tipos de falta, todos eles devem
-                ser considerados pela arbitragem. Os tipos de falta são: <br />
-                - faltas pessoais: quando há um contato ilegal entre os atletas;
-                <br />
-                - faltas antidesportivas: ocorrem quando o contato ocorre de
-                forma alheia aos padrões do jogo; <br />
-                - faltas técnicas: são relativas ao comportamento do jogador,
-                quando este atrapalha o desenvolvimento da partida, sem haver
-                contato físico com o adversário; <br />
-                - faltas desqualificantes: quando há algum ato de violência
-                praticado por um atleta, ou no caso de briga entre dois ou mais
-                atletas. <br />
-                Durante a partida, cada jogador possui um limite de 5 faltas
-                pessoais. Após o cometimento da quinta falta, o jogador deve ser
-                excluído da partida. <br />
-                Cada equipe também possui um limite de 5 faltas (faltas
-                coletivas/faltas de equipe) por quarto de jogo. A partir da
-                quinta falta coletiva em diante, a equipe que sofre a falta tem
-                direito à execução de dois lances livres.
+                É obrigatório quicar a bola para se deslocar. Regras como "andada" (dar mais de dois passos sem quicar) e "dois dribles" (parar o drible e recomeçar) são infrações comuns.
               </p>
             </div>
             <div class="rules-box">
-              <h3>Controle de bola</h3>
-              <p>
-                O basquete é jogado com as mãos e, a partir do controle da bola,
-                cada jogador pode passar, arremessar, quicar, rolar, tapear ou
-                driblar. <br />
-                O drible consiste no controle da bola, quicando-a com uma das
-                mãos de cada vez. O jogador pode dar apenas um passo por quique
-                da bola. O drible acaba quando o jogador toca com ambas as mãos
-                simultaneamente a bola. <br />
-                São infrações: se o jogador movimentar os dois pés, estando em
-                posse da bola - andar, e tocar a bola com as duas mãos e volta a
-                quicá-la - dois dribles. <br />
-                Cada equipe, após o controle da bola, possui 24 segundos de
-                posse de bola para arremessá-la à cesta adversária. Desses 24
-                segundos, apenas 8 segundos podem ser executados no campo de
-                defesa. A equipe não pode regressar com a bola ao campo de
-                defesa após ter cruzado a linha do meio da quadra.
-              </p>
-            </div>
-            <div class="rules-box">
-              <h3>Substituições</h3>
-              <p>
-                No basquete, cada equipe pode realizar um número indeterminado
-                de substituições. As substituições podem ocorrer a qualquer
-                momento da partida, seja com a bola em jogo, desde que sejam
-                feitas dentro da área delimitada, ou nos momentos de parada.
-              </p>
-            </div>
-            <div class="rules-box">
-              <h3>Pontuação</h3>
-              <p>
-                3 pontos - fora da linha dos 3 pontos <br />
-                2 pontos - na parte interna da linha de 3 pontos(incluindo a
-                linha) <br />
-                1 ponto - lance livre na área demarcada
-              </p>
-            </div>
-            <div class="rules-box">
-              <h3>Lances livres</h3>
-              <p>
-                Os lances livres são arremessos sem marcação, a partir de uma
-                área delimitada para sua cobrança. <br />
-                Eles ocorrem quando um jogador recebe um contato no momento do
-                arremesso ou após esgotado o limite de faltas coletivas de uma
-                equipe. <br />
-                Os lances livres devem ser cobrados pelo jogador que sofreu a
-                falta. No caso de lesão ou abandono da partida, seu substituto
-                direto deve realizar os arremessos.
-              </p>
+              <h3>Benefícios para a Saúde</h3>
+              <ul>
+                <li>Melhora da agilidade, coordenação motora e reflexos.</li>
+                <li>Desenvolvimento da resistência cardiovascular.</li>
+                <li>Fortalecimento de todo o sistema muscular.</li>
+                <li>Estímulo ao foco estratégico e tomada de decisão rápida.</li>
+              </ul>
             </div>
           </div>
           <div class="rules-title">
@@ -159,7 +120,9 @@
           </div>
           <div class="rules-quadra">
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/quadradebasquete.webp?v=1681914625210"
+              src="/assets/images/quadra_basquete-upscaled.png"
+              alt="Quadra de basquete com marcações"
+              loading="lazy"
             />
           </div>
         </div>
@@ -172,7 +135,9 @@
           <div class="players-box">
             <span>Michael Jordan</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/michael-jordan.jpg?v=1681916433344"
+              src="/assets/images/michael-jordan-upscaled.png"
+              alt="Michael Jordan"
+              loading="lazy"
             />
             <p>
               Michael Jordan nasceu em 1963, é americano, de peso 98 kg e altura
@@ -188,7 +153,9 @@
           <div class="players-box">
             <span>Kobe Bryant</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/kobebryant.jpg?v=1681917532346"
+              src="/assets/images/kobe-bryant-upscaled.png"
+              alt="Kobe Bryant"
+              loading="lazy"
             />
             <p>
               Kobe nasceu em 1978, é americano, de peso 93 kg e altura 1.98 m. O
@@ -203,20 +170,24 @@
           <div class="players-box">
             <span>Lebron James</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/lebron-james.jpg?v=1681917536925"
+              src="/assets/images/lebron-james-upscaled.png"
+              alt="LeBron James"
+              loading="lazy"
             />
             <p>
               O americano LeBron James nasceu em 1984, e seu peso é 113 kg, com
               altura de 2.03 m, popular por jogar pelo Cleveland Cavaliers, na
               NBA. Ele foi campeão nas temporadas 2011-2012, e 2012-2013, MVP de
               finais em 2012 e 2013, com nomeação por 4 vezes o jogador mais
-              valioso, e ainda foi eleito o Novato do Ano em 2003.
+              valioso, e ainda foi eleito o Novato do Ano in 2003.
             </p>
           </div>
           <div class="players-box">
             <span>Magic Johnson</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/magic-johnson.jpg?v=1681917524553"
+              src="/assets/images/magic-johnson-upscaled.png"
+              alt="Magic Johnson"
+              loading="lazy"
             />
             <p>
               Magic Johnson nasceu em 1959, é americano, de peso e altura de,
@@ -232,7 +203,9 @@
           <div class="players-box">
             <span>Larry Bird</span>
             <img
-              src="https://cdn.glitch.global/7f9ac767-286d-491d-bfcb-fd2095f7eff0/larrybird.jpg?v=1681917520476"
+              src="/assets/images/larry bird-upscaled.png"
+              alt="Larry Bird"
+              loading="lazy"
             />
             <p>
               Larry Bird nasceu em 1956, é americano de altura 2.06 m e peso 100

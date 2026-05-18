@@ -1,0 +1,284 @@
+.home-bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/images/volei-home-upscaled.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.introduction {
+    max-width: 30%;
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    right: 13%;
+    border-radius: var(--radius-xl);
+    top: 20%;
+    padding: var(--space-2) var(--space-10);
+}
+
+.introduction h1 {
+    font-size: var(--text-4xl);
+    text-align: center;
+    font-weight: 600;
+    color: var(--clr-volei);
+    line-height: 1;
+    margin: 0 0 var(--space-4);
+}
+
+.introduction p {
+    font-size: var(--text-md);
+    text-align: left;
+    color: var(--clr-black);
+    line-height: var(--leading-relaxed);
+    margin: 0 0 0.8em;
+}
+
+.introduction p:last-child {
+    margin-bottom: 0;
+}
+
+.history,
+.rules,
+.players {
+  padding: 100px 12% 0 12%;
+}
+
+.history-container {
+  background-color: var(--clr-white);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-12) var(--space-6);
+  box-shadow: var(--shadow-card);
+}
+
+.history-text {
+  max-width: 60%;
+  background: var(--clr-white);
+  padding: 0 var(--space-12);
+}
+
+.history-text h2 {
+  font-size: var(--text-2xl);
+  border-bottom: 4px solid var(--clr-volei);
+}
+
+.history-text p {
+  font-size: var(--text-lg);
+  margin: 0;
+  line-height: var(--leading-normal);
+}
+
+.img-box {
+  display: flex;
+  border-radius: var(--radius-xl);
+  flex-direction: column;
+  align-items: center;
+  background: var(--clr-white);
+}
+
+.img img {
+  border-radius: var(--radius-xl);
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+}
+
+.img-box span {
+  padding-top: var(--space-2);
+  font-size: var(--text-xl);
+  text-align: center;
+}
+
+.rules-container {
+  background-color: var(--clr-white);
+  border-radius: var(--radius-xl);
+  padding: var(--space-12) var(--space-6);
+  box-shadow: var(--shadow-card);
+}
+
+.rules-title,
+.rules-grid,
+.rules-quadra {
+  padding:0 var(--space-12);
+}
+
+.rules-title h2 {
+  width: fit-content;
+  font-size: var(--text-2xl);
+  border-bottom: 4px solid var(--clr-volei);
+}
+
+.rules-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--space-12);
+}
+
+.rules-box h3 {
+  font-size: var(--text-xl);
+}
+
+.rules-box p {
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+}
+
+.rules-box ul {
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+  padding-left: 1.5em;
+  margin: 0.4em 0 0;
+}
+
+.rules-box ul li {
+  margin-bottom: 0.35em;
+}
+
+.players-container {
+  background-color: var(--clr-white);
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-12) var(--space-6);
+  box-shadow: var(--shadow-card);
+}
+
+.players-title {
+  display: flex;
+  justify-content: center;
+}
+
+.players-title h2 {
+  text-align: center;
+  font-size: var(--text-3xl);
+  border-bottom: 4px solid var(--clr-volei);
+}
+
+.players-box {
+  background-color: var(--clr-white);
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  padding: var(--space-6) var(--space-12);
+  box-shadow: var(--shadow-card);
+  margin-bottom: var(--space-16);
+}
+
+.players-box span {
+  font-weight: 500;
+  font-size: var(--text-3xl);
+  margin-bottom: var(--space-2);
+  border-bottom: 4px solid var(--clr-volei);
+}
+
+.players-box img {
+  border-radius: var(--radius-xl);
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: contain;
+}
+
+.players-box p {
+  font-size: var(--text-lg);
+  text-align: left;
+  line-height: var(--leading-normal);
+}
+
+/* ── Tablet / Mobile ───────────────────── */
+@media (max-width: 768px) {
+  .home-bg {
+    height: auto;
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 5% 30px;
+  }
+
+  .introduction {
+    position: relative;
+    max-width: 100%;
+    right: auto;
+    top: auto;
+    padding: var(--space-4) var(--space-6);
+    border-radius: var(--radius-lg);
+  }
+
+  .introduction h1 {
+    font-size: clamp(3rem, 10vw, 5rem);
+    line-height: 1;
+  }
+
+  .introduction p {
+    font-size: 1.1rem;
+  }
+
+  .history,
+  .rules,
+  .players {
+    padding: 60px 5% 0 5%;
+  }
+
+  .history-container {
+    flex-direction: column;
+    gap: var(--space-6);
+    border-radius: var(--radius-lg);
+  }
+
+  .history-text {
+    max-width: 100%;
+    padding: 0 var(--space-2);
+  }
+
+  .img img {
+    max-width: 100%;
+    border-radius: var(--radius-lg);
+  }
+
+  .rules-container {
+    border-radius: var(--radius-lg);
+  }
+
+  .rules-grid {
+    grid-template-columns: 1fr;
+    grid-gap: var(--space-6);
+  }
+
+  .players-container {
+    border-radius: var(--radius-lg);
+  }
+
+  .players-box {
+    width: 100%;
+    padding: var(--space-4) var(--space-4);
+    border-radius: var(--radius-lg);
+  }
+
+  .players-box img {
+    border-radius: var(--radius-lg);
+  }
+
+  .history-text p {
+    font-size: 17px;
+  }
+
+  .rules-box p,
+  .rules-box ul {
+    font-size: 16px;
+  }
+
+  .players-box span {
+    font-size: 30px;
+  }
+
+  .players-box p {
+    font-size: 16px;
+  }
+}
