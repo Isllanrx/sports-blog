@@ -69,7 +69,7 @@ This project relies on dynamic component injection, so it requires a local serve
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/Blog-Esporte.git
+   git clone https://github.com/isllanrx/Blog-Esporte.git
    ```
 
 2. **Start a local server:**
