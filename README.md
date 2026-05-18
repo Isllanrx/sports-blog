@@ -114,6 +114,3 @@ To avoid the need for a complex database, administration is handled via data exp
 * Pedro Henrique dos Santos Amorim
 
 © 2023 - Academic Project
-
-```
-```
