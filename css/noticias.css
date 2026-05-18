@@ -22,7 +22,6 @@
   font-size: var(--text-lg);
 }
 
-/* ── Featured Section ──────────────────── */
 .featured-section {
   margin-bottom: var(--space-12);
 }
@@ -61,7 +60,6 @@
   justify-content: center;
 }
 
-/* ── News Grid ─────────────────────────── */
 .news-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -102,7 +100,6 @@
   flex-direction: column;
 }
 
-/* ── Shared Card Elements ──────────────── */
 .badge {
   display: inline-block;
   padding: 4px 12px;
@@ -147,7 +144,6 @@
   overflow: hidden;
 }
 
-/* ── Mobile ────────────────────────────── */
 @media (max-width: 768px) {
   .featured-card {
     grid-template-columns: 1fr;

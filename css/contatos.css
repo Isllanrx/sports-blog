@@ -1,6 +1,6 @@
 .contact-main {
   background-color: var(--clr-gray-bg);
-  min-height: calc(100vh - 120px); /* Compensa header e footer */
+  min-height: calc(100vh - 120px);
 }
 
 .contact.container {
@@ -125,7 +125,6 @@ textarea:focus {
   text-align: center;
 }
 
-/* ── Mobile ────────────────────────────── */
 @media (max-width: 768px) {
   .contact.container {
     padding: var(--space-16) 15px var(--space-8);

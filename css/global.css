@@ -2,15 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/* ── Design Tokens ────────────────────────────────────────────────────────── */
+
 :root {
-  /* Brand colors */
   --clr-futebol:    #12b80f;
   --clr-basquete:   #d34808;
   --clr-volei:      #e9b516;
   --clr-nav:        #145DA0;
 
-  /* Neutral palette */
   --clr-black:      #000000;
   --clr-white:      #ffffff;
   --clr-gray-bg:    rgb(227, 227, 227);
@@ -20,12 +18,10 @@
   --clr-nav-active: #ffffff;
   --clr-border:     #efefef;
 
-  /* Typography */
   --font-display: 'Bebas Neue', cursive;
   --font-body:    'Open Sans', sans-serif;
   --font-sport:   'Poppins', sans-serif;
 
-  /* Type scale */
   --text-xs:   0.8rem;
   --text-sm:   0.9rem;
   --text-base: 1rem;
@@ -36,12 +32,11 @@
   --text-3xl:  2.5rem;
   --text-4xl:  3rem;
 
-  /* Line heights */
+
   --leading-tight:   1.2;
   --leading-normal:  1.5;
   --leading-relaxed: 1.6;
 
-  /* Spacing */
   --space-1:  0.25rem;
   --space-2:  0.5rem;
   --space-3:  0.75rem;
@@ -52,23 +47,17 @@
   --space-12: 3rem;
   --space-16: 4rem;
   --space-24: 6rem;
-
-  /* Shadows */
   --shadow-card: 0 8px 24px hsla(228, 66%, 45%, .25);
-
-  /* Border radius */
   --radius-sm:  5px;
   --radius-md:  10px;
   --radius-lg:  20px;
   --radius-xl:  50px;
 
-  /* Transitions */
   --ease-fast:   0.2s ease;
   --ease-normal: 0.3s ease;
   --ease-slow:   0.4s ease;
 }
 
-/* ── Reset & Global ───────────────────────────────────────────────────────── */
 html {
   height: 100%;
   box-sizing: border-box;
@@ -92,10 +81,9 @@ body {
 
 main {
   flex: 1 0 auto;
-  padding-top: 60px; /* Altura do header */
+  padding-top: 60px;
 }
 
-/* ── Header & Navigation ──────────────────────────────────────────────────── */
 .main-header {
   width: 100%;
   background-color: var(--clr-black);
@@ -165,7 +153,6 @@ main {
   color: var(--clr-white);
 }
 
-/* ── Hamburger Menu ────────────────────────── */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -190,7 +177,6 @@ main {
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* ── Footer ───────────────────────────────────────────────────────────────── */
 .footer {
   flex-shrink: 0;
   width: 100%;
@@ -207,7 +193,6 @@ main {
   letter-spacing: 0.5px;
 }
 
-/* ── Utilitários ──────────────────────────────────────────────────────────── */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -233,7 +218,6 @@ main {
   box-shadow: var(--shadow-card);
 }
 
-/* ── Media Queries ────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -272,7 +256,6 @@ main {
   }
 }
 
-/* ── Transitions ────────────────────────── */
 @keyframes page-enter {
   from { opacity: 0; transform: translateY(4px); }
   to   { opacity: 1; transform: translateY(0); }

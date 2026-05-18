@@ -1,18 +1,12 @@
 var DATA_URL = '/data/posts.json'
 
-/**
- * Extrai a primeira imagem de uma string HTML
- */
 function extractFirstImage(html) {
   var div = document.createElement('div')
   div.innerHTML = html
   var img = div.querySelector('img')
-  return img ? img.src : '/assets/images/futebol-upscaled.png' // Fallback
+  return img ? img.src : '/assets/images/futebol-upscaled.png'
 }
 
-/**
- * Limpa HTML e gera um snippet de texto
- */
 function createSnippet(html, length) {
   var div = document.createElement('div')
   div.innerHTML = html
@@ -63,13 +57,10 @@ function inicia() {
         return
       }
 
-      // O primeiro post vai para o destaque
       featuredContainer.innerHTML = createCardHTML(dados[0], 0, true)
 
-      // Os demais vão para o grid
       var gridHTML = ''
       for (var i = 1; i < dados.length; i++) {
-        // Ignorar o post de "teste" se necessário, ou apenas mostrar tudo
         if (dados[i].titulo.toLowerCase() === 'teste') continue;
         gridHTML += createCardHTML(dados[i], i, false)
       }

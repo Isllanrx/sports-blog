@@ -188,7 +188,6 @@
   line-height: var(--leading-normal);
 }
 
-/* ── Tablet / Mobile ───────────────────── */
 @media (max-width: 768px) {
   .home-bg {
     height: auto;

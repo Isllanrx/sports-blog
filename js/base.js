@@ -1,7 +1,3 @@
-/**
- * Adiciona top bar e footer dinamicamente em todas as páginas
- */
-
 function iniciarNav() {
   var topBarHTML = [
     '<div class="topbar">',
@@ -46,7 +42,6 @@ function iniciarNav() {
       hamburger.classList.toggle("open");
     });
 
-    // Fecha o menu ao clicar fora dele
     document.addEventListener("click", function () {
       if (navMenu.classList.contains("open")) {
         navMenu.classList.remove("open");
@@ -66,18 +61,15 @@ function iniciarNav() {
   });
 }
 
-// Guard para garantir execução mesmo com defer + cache quente
 if (document.readyState === "loading") {
   window.addEventListener("load", iniciarNav);
 } else {
   iniciarNav();
 }
 
-// Page exit transition — intercepts internal link clicks and fades out before navigating
 (function () {
   var leaving = false;
 
-  // Restore state if browser restores page from bfcache (back/forward)
   window.addEventListener("pageshow", function (e) {
     if (e.persisted) {
       document.body.classList.remove("page-exit");
@@ -93,7 +85,6 @@ if (document.readyState === "loading") {
 
     var href = link.getAttribute("href");
 
-    // Skip: external links, anchors, new tab, modifier keys
     if (
       !href ||
       link.target === "_blank" ||

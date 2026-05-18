@@ -58,7 +58,6 @@
   color: var(--clr-text);
 }
 
-/* ── Badge Styling (Reused from News) ── */
 .badge {
   display: inline-block;
   padding: 4px 12px;
@@ -75,7 +74,6 @@
 .badge.volei { background-color: var(--clr-volei); }
 .badge.default { background-color: var(--clr-nav); }
 
-/* ── Content Elements ──────────────────── */
 .article-body p {
   margin-bottom: var(--space-6);
 }
@@ -87,7 +85,6 @@
   margin: var(--space-8) 0;
 }
 
-/* ── Mobile ────────────────────────────── */
 @media (max-width: 768px) {
   .article-content {
     padding: var(--space-6);
