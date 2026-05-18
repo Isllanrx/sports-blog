@@ -1,0 +1,325 @@
+Criação do relatório: 18 de mai. de 2026, 15:37:38
+https://blog-esporte-uvv.vercel.app/
+Digite um URL válido
+
+
+smartphone
+Celular
+
+computer
+Computador
+
+Entender a experiência dos seus usuários
+Nenhum dado
+
+Diagnosticar problemas de desempenho
+Desempenho
+Acessibilidade
+Práticas recomendadas
+SEO
+0–49
+50–89
+90–100
+Desempenho
+Os valores são estimados e podem variar. O índice de desempenho é calculado diretamente por essas métricas.Ver calculadora.
+
+Métricas
+Fechar visualização
+First Contentful Paint
+Error!
+A página não desenhou nenhum conteúdo. Mantenha a janela do navegador em primeiro plano durante o carregamento e tente novamente. (NO_FCP)
+Largest Contentful Paint
+Error!
+A página não desenhou nenhum conteúdo. Mantenha a janela do navegador em primeiro plano durante o carregamento e tente novamente. (NO_FCP)
+Total Blocking Time
+Error!
+A página não desenhou nenhum conteúdo. Mantenha a janela do navegador em primeiro plano durante o carregamento e tente novamente. (NO_FCP)
+Cumulative Layout Shift
+Error!
+A página não desenhou nenhum conteúdo. Mantenha a janela do navegador em primeiro plano durante o carregamento e tente novamente. (NO_FCP)
+Speed Index
+Error!
+A página não desenhou nenhum conteúdo. Mantenha a janela do navegador em primeiro plano durante o carregamento e tente novamente. (NO_FCP)
+Captured at 18 de mai. de 2026, 15:36 BRT
+Moto G Power emulado with Lighthouse 13.0.1
+Sessão de uma única página
+Carregamento inicial da página
+Limitação lenta de 4G
+Using HeadlessChromium 146.0.7680.177 with lr
+Insights
+Use ciclos de vida eficientes de cache Erro!
+Um cache com ciclo de vida longo pode acelerar visitas repetidas à sua página. Saiba mais.Fora da pontuação
+Causas da troca de layout Erro!
+As mudanças de layout ocorrem quando os elementos se movem sem qualquer interação do usuário. Investigue as causas de mudanças no layout, como elementos adicionados, removidos ou com fontes alteradas durante o carregamento da página.Fora da pontuação
+Latência da solicitação de documentos Erro!
+A primeira solicitação de rede é a mais importante. Reduza a latência dela evitando redirecionamentos, garantindo uma resposta rápida do servidor e ativando a compactação de texto.Fora da pontuação
+Otimizar o tamanho do DOM Erro!
+Um DOM grande pode aumentar a duração dos cálculos de estilo e reflows de layout, o que afeta a capacidade de resposta da página. Um DOM grande também aumenta o uso da memória. Aprenda a evitar que o tamanho do DOM seja grande demais.Fora da pontuação
+Exibição de fontes Erro!
+Defina font-display como swap ou optional para garantir que o texto fique visível de forma consistente. O atributo swap pode ser otimizado ainda mais para reduzir as trocas de layout com substituições de métrica de fonte.Fora da pontuação
+Reflow forçado Erro!
+Um reflow forçado ocorre quando o JavaScript consulta propriedades geométricas (como offsetWidth) depois que os estilos são invalidados por uma mudança no estado do DOM. Isso pode resultar em desempenho ruim. Saiba mais sobre reflows forçados e possíveis reduções de risco.Fora da pontuação
+Melhorar a entrega de imagens Erro!
+Reduzir o tempo de download das imagens pode melhorar o tempo de carregamento percebido da página e a LCP. Saiba mais sobre como otimizar o tamanho da imagemFora da pontuação
+Detalhamento da INP Erro!
+Comece a investigação pela subparte mais longa. Os atrasos podem ser minimizados. Para reduzir a duração do processamento, otimize os custos da linha de execução principal, geralmente JS.Fora da pontuação
+Detalhamento da LCP Erro!
+Cada subparte tem estratégias de melhoria específicas. O ideal é que a maior parte do tempo de LCP seja gasto no carregamento dos recursos, não em atrasos.Fora da pontuação
+Descoberta de solicitações de LCP Erro!
+Otimize a LCP tornando a imagem LCP detectável no HTML imediatamente e evitando o carregamento lentoFora da pontuação
+Renderizar solicitações de bloqueio Erro!
+As solicitações estão bloqueando a renderização inicial da página, o que pode atrasar a LCP. Essas solicitações de rede podem ser deferidas ou colocadas inline para que fiquem fora do caminho crítico.Fora da pontuação
+Terceiros Erro!
+Código de terceiros pode afetar significativamente a performance de carregamento. Reduza e adie o carregamento de código de terceiros para priorizar o conteúdo da sua página.Fora da pontuação
+Otimizar janela de visualização para dispositivos móveis Erro!
+As interações por toque podem atrasar em até 300 ms se a janela de visualização não for otimizada para dispositivos móveis.Fora da pontuação
+JavaScript duplicado Erro!
+Remover módulos JavaScript grandes e duplicados de pacotes para reduzir bytes desnecessários consumidos por atividades da rede.Fora da pontuação
+JavaScript legado Erro!
+Polyfills e transformações permitem que navegadores mais antigos usem novos recursos do JavaScript. No entanto, muitos não são necessários para navegadores mais recentes. Considere mudar seu processo de criação do JavaScript para não transpilar os recursos de referência, a menos que você precise da compatibilidade com navegadores mais antigos. Entenda por que a maioria dos sites pode implantar código ES6+ sem transpilaçãoFora da pontuação
+Árvore de dependência da rede Erro!
+Evite encadear solicitações críticas reduzindo o tamanho das cadeias, o tamanho do download de recursos ou adiando o download de recursos desnecessários para melhorar o carregamento da página.Fora da pontuação
+Esses insights também estão disponíveis no painel de desempenho do Chrome DevTools. Grave um rastro para ver informações mais detalhadas.
+Diagnóstico
+Os elementos de imagem têm width e height explícitas Erro!
+Defina uma largura e altura explícitas em elementos de imagem para reduzir mudanças de layout e melhorar a CLS. Aprenda a definir as dimensões de uma imagem.Fora da pontuação
+Reduza o CSS Erro!
+A redução de arquivos CSS pode diminuir o tamanho do payload de rede. Aprenda a reduzir os arquivos CSS.Fora da pontuação
+Reduza o JavaScript Erro!
+A redução de arquivos JavaScript pode diminuir o tamanho de payloads e o tempo de análise de scripts. Aprenda a diminuir o JavaScript.Fora da pontuação
+Marcações e medições de User Timing Erro!
+Instrumente seu app com a API User Timing para avaliar a performance real do app durante as principais experiências do usuário. Saiba mais sobre marcações de velocidade do usuário.Fora da pontuação
+Evitar animações não compostas Erro!
+Animações que não são compostas podem ficar instáveis e aumentar a CLS. Aprenda a evitar animações que não são compostasFora da pontuação
+Reduza o CSS não usado Erro!
+Para diminuir o consumo de bytes da atividade da rede, reduza as regras não usadas nas folhas de estilo e adie o CSS não usado para conteúdo acima da dobra. Aprenda a reduzir o CSS não usado.Fora da pontuação
+Reduza o JavaScript não usado Erro!
+Para diminuir o consumo de bytes da atividade da rede, reduza o JavaScript não usado e adie o carregamento de scripts até que eles sejam necessários. Aprenda a reduzir o JavaScript não usado.Fora da pontuação
+Evita payloads de rede muito grandes Erro!
+Grandes payloads de rede geram custos para o usuário e estão diretamente relacionados a tempos de carregamento maiores. Aprenda a reduzir o tamanho dos payloads.Fora da pontuação
+Tempo de execução de JavaScript Erro!
+Diminua o tempo gasto com análise, compilação e execução de JS. Você vai perceber que a entrega de payloads JS menores ajuda a fazer isso. Aprenda a reduzir o tempo de execução do JavaScript.Fora da pontuação
+Minimiza o trabalho da thread principal Erro!
+Considere diminuir o tempo gasto na análise, compilação e execução de JS. Você vai perceber que a entrega de payloads JS menores ajuda a fazer isso. Aprenda a minimizar o trabalho da linha de execução principal.Fora da pontuação
+Evitar tarefas longas da linha de execução principal Erro!
+Lista as tarefas mais longas na linha de execução principal. Útil para identificar os piores contribuidores para a latência de entrada. Aprenda a evitar tarefas mais longas da linha de execução principalFora da pontuação
+Mais informações sobre o desempenho do seu aplicativo. Esses números não afetam diretamente o índice de desempenho.
+Acessibilidade
+Essas verificações destacam oportunidades para melhorar a acessibilidade do seu app da Web. A detecção automática só detecta um subconjunto de problemas e não garante a acessibilidade do seu app da Web. Portanto, também recomendamos o teste manual.
+Interactive controls are keyboard focusable Erro!
+Custom interactive controls are keyboard focusable and display a focus indicator. Learn how to make custom controls focusable.Fora da pontuação
+Interactive elements indicate their purpose and state Erro!
+Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. Learn how to decorate interactive elements with affordance hints.Fora da pontuação
+The page has a logical tab order Erro!
+Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. Learn more about logical tab ordering.Fora da pontuação
+Visual order on the page follows DOM order Erro!
+DOM order matches the visual order, improving navigation for assistive technology. Learn more about DOM and visual ordering.Fora da pontuação
+User focus is not accidentally trapped in a region Erro!
+A user can tab into and out of any control or region without accidentally trapping their focus. Learn how to avoid focus traps.Fora da pontuação
+The user's focus is directed to new content added to the page Erro!
+If new content, such as a dialog, is added to the page, the user's focus is directed to it. Learn how to direct focus to new content.Fora da pontuação
+HTML5 landmark elements are used to improve navigation Erro!
+Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. Learn more about landmark elements.Fora da pontuação
+Offscreen content is hidden from assistive technology Erro!
+Offscreen content is hidden with display: none or aria-hidden=true. Learn how to properly hide offscreen content.Fora da pontuação
+Custom controls have associated labels Erro!
+Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. Learn more about custom controls and labels.Fora da pontuação
+Custom controls have ARIA roles Erro!
+Custom interactive controls have appropriate ARIA roles. Learn how to add roles to custom controls.Fora da pontuação
+ARIA
+Os atributos [aria-*] correspondem às próprias funções Erro!
+Cada role ARIA é compatível com um subconjunto específico de atributos aria-*. A falta de correspondência entre eles invalida os atributos aria-*. Aprenda a associar atributos ARIA às próprias funções.
+O [aria-hidden="true"] não está presente no documento <body> Erro!
+As tecnologias adaptativas, como leitores de tela, funcionam de maneira inconsistente quando o aria-hidden="true" está configurado no documento <body>. Aprenda como o aria-hidden afeta o corpo do documento.
+[role]s têm todos os atributos [aria-*] obrigatórios Erro!
+Algumas funções ARIA têm atributos obrigatórios que descrevem o estado do elemento para leitores de tela. Saiba mais sobre funções e atributos obrigatórios.
+Elementos com uma [role] ARIA que exigem que os filhos contenham uma [role] específica têm todos os filhos obrigatórios. Erro!
+Algumas funções ARIA mães precisam ter funções filhas específicas para cumprir as tarefas de acessibilidade pretendidas. Saiba mais sobre funções e os elementos filhos obrigatórios.
+[role]s fazem parte do elemento pai obrigatório Erro!
+Algumas funções ARIA filhas precisam fazer parte das funções mães específicas para cumprir as tarefas de acessibilidade pretendidas. Saiba mais sobre as funções ARIA e o elemento pai obrigatório.
+Os valores de [role] são válidos Erro!
+As funções ARIA precisam ter valores válidos para realizar as tarefas de acessibilidade pretendidas. Saiba mais sobre as funções ARIA válidas.
+Os atributos [aria-*] têm valores válidos Erro!
+Tecnologias adaptativas, como leitores de tela, não conseguem interpretar atributos ARIA com valores inválidos. Saiba mais sobre os valores válidos para atributos ARIA.
+Os atributos [aria-*] são válidos e não contêm erros de ortografia Erro!
+As tecnologias adaptativas, como leitores de tela, não conseguem interpretar atributos ARIA com nomes inválidos. Saiba mais sobre os atributos ARIA válidos.
+Os códigos ARIA são únicos Erro!
+É necessário que o valor de um código ARIA seja único para impedir que outras instâncias sejam ignoradas por tecnologias adaptativas. Aprenda a corrigir códigos ARIA duplicados.
+Os elementos button, link e menuitem têm nomes acessíveis Erro!
+Quando um elemento não tem um nome acessível, os leitores de tela o anunciam com um nome genérico, fazendo com que os usuários que dependem desses leitores não possam usá-lo. Aprenda a tornar os elementos de comando mais acessíveis.
+Os atributos ARIA são usados conforme especificado para a função do elemento Erro!
+Alguns atributos ARIA só são permitidos em um elemento sob certas condições. Saiba mais sobre os atributos ARIA condicionais.
+Elementos com role="dialog" ou role="alertdialog" têm nomes acessíveis. Erro!
+Elementos de caixa de diálogo ARIA sem nomes acessíveis podem impedir que usuários de leitores de tela entendam a finalidade desses elementos. Saiba como tornar os elementos da caixa de diálogo ARIA mais acessíveis.
+Os elementos [aria-hidden="true"] não contêm descendentes focalizáveis Erro!
+Os descendentes focalizáveis dentro de um elemento [aria-hidden="true"] impedem que esses elementos interativos sejam disponibilizados para usuários de tecnologias adaptativas, por exemplo, leitores de tela. Aprenda como o elemento aria-hidden afeta elementos focalizáveis.
+Os campos de entrada ARIA têm nomes acessíveis Erro!
+Quando um campo de entrada não tem um nome acessível, os leitores de tela o anunciam com um nome genérico, fazendo com que os usuários com leitores de tela não possam usá-lo. Saiba mais sobre os rótulos de campos de entrada.
+Os elementos ARIA meter têm nomes acessíveis Erro!
+Quando um elemento meter não tem um nome acessível, os leitores de tela o anunciam com um nome genérico, fazendo com que ele não possa ser usado pelos usuários que dependem desses leitores. Aprenda a nomear elementos meter.
+Os elementos ARIA progressbar têm nomes acessíveis Erro!
+Quando um elemento progressbar não tem um nome acessível, os leitores de tela o anunciam com um nome genérico, fazendo com que os usuários que dependem desses leitores não possam usá-lo. Aprenda a marcar elementos progressbar.
+Os elementos usam apenas atributos ARIA permitidos Erro!
+Usar atributos ARIA em funções em que eles são proibidos pode fazer com que informações importantes não sejam comunicadas aos usuários de tecnologias adaptativas. Saiba mais sobre as funções ARIA proibidas.
+Os elementos com o atributo role=text não têm descendentes focalizáveis. Erro!
+Adicionar role=text ao redor de um nó de texto dividido por marcação permite que o VoiceOver trate isso como uma frase, mas os descendentes focalizáveis do elemento não vão ser anunciados. Saiba mais sobre o atributo role=text.
+Os campos de alternância ARIA têm nomes acessíveis Erro!
+Quando um campo de alternância não tem um nome acessível, os leitores de tela o anunciam com um nome genérico, fazendo com que os usuários com leitores de tela não possam usá-lo. Saiba mais sobre campos de alternância.
+Os elementos ARIA tooltip têm nomes acessíveis Erro!
+Quando um elemento tooltip não tem um nome acessível, os leitores de tela o anunciam com um nome genérico, fazendo com que ele não possa ser usado pelos usuários que dependem desses leitores. Aprenda a nomear elementos tooltip.
+Os elementos ARIA treeitem têm nomes acessíveis Erro!
+Quando um elemento treeitem não tem um nome acessível, os leitores de tela o anunciam com um nome genérico, fazendo com que os usuários que dependem desses leitores não possam usá-lo. Saiba mais sobre como marcar elementos treeitem.
+As funções ARIA descontinuadas não foram usadas Erro!
+As funções ARIA descontinuadas talvez não sejam processadas corretamente pela tecnologia adaptativa. Saiba mais sobre as funções ARIA descontinuadas.
+Veja aqui oportunidades de melhorar o uso de ARIA no seu aplicativo, o que pode aprimorar a experiência dos usuários de tecnologias assistivas, como leitores de tela.
+Nomes e etiquetas
+Os botões têm um nome acessível Erro!
+Quando um botão não tem um nome acessível, os leitores de tela o enunciam como "botão", o que o inutiliza para usuários que dependem desses leitores. Aprenda a tornar os botões mais acessíveis.
+Os elementos de imagem têm atributos [alt] Erro!
+O texto de elementos informativos precisa ser alternativo, breve e descritivo. Elementos decorativos podem ser ignorados com um atributo alternativo vazio. Saiba mais sobre o atributo alt.
+Os botões de entrada têm texto compreensível. Erro!
+A adição de texto compreensível e acessível a botões de entrada pode ajudar os usuários de leitores de tela a entender a finalidade do botão. Saiba mais sobre botões de entrada.
+Os elementos <input type="image"> têm texto [alt] Erro!
+Quando uma imagem é usada como um botão <input>, a oferta de texto alternativo ajuda o usuário do leitor de tela a entender a finalidade do botão. Saiba mais sobre texto alternativo para imagens de entrada.
+Os elementos de formulário têm etiquetas associadas Erro!
+Os marcadores garantem que os controles de formulário sejam enunciados corretamente por tecnologias adaptativas, como, por exemplo, leitores de tela. Saiba mais sobre marcadores de elementos de formulários.
+Os elementos de <select> têm elementos de <label> associados. Erro!
+Elementos de <form> sem rótulos eficazes podem criar experiências frustrantes para usuários de leitores de tela. Saiba mais sobre o elemento select.
+O documento tem um elemento <title> Erro!
+O título oferece ao usuário do leitor de tela uma visão geral da página, além de ser extremamente útil para que os usuários de mecanismos de pesquisa determinem se uma página é relevante à pesquisa deles. Saiba mais sobre títulos de documentos.
+Os elementos <frame> ou <iframe> têm um título Erro!
+Os usuários de leitores de tela utilizam títulos para descrever o conteúdo de frames. Saiba mais sobre os títulos de frames.
+Os links têm um nome compreensível Erro!
+Textos de link (e textos alternativos de imagens, quando utilizados como link) compreensíveis, únicos e focalizáveis melhoram a experiência de navegação para usuários de leitores de tela. Aprenda a deixar os links mais acessíveis.
+Os elementos <object> têm texto alternativo Erro!
+Os leitores de tela não traduzem conteúdo não textual. A adição de texto alternativo a elementos <object> ajuda os leitores de tela a transmitir o significado para os usuários. Saiba mais sobre texto alternativo para elementos object.
+Nenhum campo de formulário tem vários rótulos Erro!
+Os campos de formulários com vários rótulos podem ser anunciados de maneira confusa por tecnologias adaptativas como leitores de tela, que usam o primeiro, o último ou todos os rótulos. Aprenda a usar os rótulos de formulários.
+Links de salto são focalizáveis. Erro!
+Com a inclusão de um link de salto, os usuários podem pular o conteúdo principal e economizar tempo. Saiba mais sobre links de salto.
+Elementos de imagem não têm atributos [alt] que sejam texto redundante. Erro!
+O texto de elementos informativos precisa ser alternativo, breve e descritivo. Se ele for exatamente igual ao texto adjacente ao link ou à imagem pode ser confuso para usuários de leitores de tela, porque o texto será lido duas vezes. Saiba mais sobre o atributo alt.Fora da pontuação
+Veja aqui oportunidades de melhorar a semântica dos controles do seu aplicativo. Isso pode melhorar a experiência de usuários de tecnologias assistivas, como leitores de tela.
+Práticas recomendadas
+O documento não usa <meta http-equiv="refresh"> Erro!
+O usuário não espera a atualização automática da página, o que move o foco novamente para a parte superior dela. Isso pode causar uma experiência confusa ou frustrante. Saiba mais sobre a metatag de atualização.
+[user-scalable="no"] não é usado no elemento <meta name="viewport">, e o atributo [maximum-scale] não é menor que 5. Erro!
+A desativação do zoom gera problemas para usuários com baixa visão que utilizam a ampliação de tela para enxergar corretamente o conteúdo de uma página da Web. Saiba mais sobre a metatag viewport.
+As áreas de toque têm tamanho e espaçamento suficientes. Erro!
+Áreas de toque com tamanho e espaçamento suficientes ajudam usuários que talvez tivessem dificuldade em tocar em áreas pequenas. Saiba mais sobre áreas de toque.
+O documento tem um ponto de referência principal. Erro!
+Um ponto de referência principal ajuda os usuários de leitores de tela a navegar em uma página da Web. Saiba mais sobre pontos de referência.
+As tabelas têm conteúdo diferente no atributo de resumo e em <caption>. Erro!
+O atributo de resumo precisa descrever a estrutura da tabela, enquanto <caption> precisa ter o título na tela. A marcação precisa de tabelas ajuda os usuários de leitores de tela. Saiba mais sobre resumos e legendas.Fora da pontuação
+Todos os elementos de <heading> têm conteúdo. Erro!
+Um cabeçalho sem conteúdo ou com texto inacessível impede que usuários de leitores de tela acessem informações sobre a estrutura da página. Saiba mais sobre cabeçalhos.Fora da pontuação
+Usa papéis ARIA apenas em elementos compatíveis Erro!
+Muitos elementos HTML só podem receber alguns papéis ARIA. Usar papéis ARIA onde eles não são permitidos pode interferir na acessibilidade da página da Web. Saiba mais sobre os papéis ARIA.Fora da pontuação
+Links idênticos têm a mesma finalidade. Erro!
+Links com o mesmo destino devem ter a mesma descrição, para ajudar os usuários a entender a finalidade do link e decidir se devem ou não clicar nele. Saiba mais sobre links idênticos.Fora da pontuação
+Esses itens destacam as práticas recomendadas comuns para acessibilidade.
+Áudio e vídeo
+Os elementos <video> contêm um elemento <track> com [kind="captions"] Erro!
+Veja aqui oportunidades de oferecer conteúdo alternativo para áudio e vídeo. Isso pode melhorar a experiência de usuários com deficiências auditivas e visuais.
+Navegação
+Valores de [accesskey] são exclusivos Erro!
+As chaves de acesso permitem ao usuário focar rapidamente em uma determinada parte da página. Para haver uma navegação adequada, cada chave de acesso precisa ser única. Saiba mais sobre as chaves de acesso.
+A página contém um título, um link de salto ou uma região de ponto de referência Erro!
+A adição de maneiras de ignorar conteúdo repetido permite que usuários de teclado naveguem pela página com mais eficiência. Saiba mais sobre ignorar blocos.
+Nenhum elemento tem um valor de [tabindex] maior que 0 Erro!
+Um valor maior que 0 indica uma ordem explícita de navegação. Embora tecnicamente válido, isso costuma gerar experiências frustrantes para os usuários que utilizam tecnologias adaptativas. Saiba mais sobre o atributo tabindex.
+Os elementos de título aparecem em uma ordem sequencial descendente Erro!
+Títulos propriamente ordenados que não pulam níveis comunicam a estrutura semântica da página, facilitando a navegação e compreensão ao usar tecnologias adaptativas. Saiba mais sobre ordem de títulos.
+Veja aqui oportunidades de melhorar a navegação por teclado no seu aplicativo.
+Contraste
+As cores de primeiro e segundo plano têm uma taxa de contraste suficiente Erro!
+Para muitos usuários, é difícil ou impossível ler textos com baixo contraste. Aprenda a fornecer contraste de cor suficiente.
+Os links são distinguíveis sem depender da cor. Erro!
+Para muitos usuários, é difícil ou impossível ler textos com baixo contraste. Textos de link perceptíveis melhoram a experiência dos usuários com baixa visão. Saiba como tornar os links diferenciáveis.
+Veja aqui oportunidades de melhorar a legibilidade do seu conteúdo.
+Tabelas e listas
+<dl>s contêm apenas os grupos <dt> e <dd>, elementos <script>, <template> ou <div> devidamente organizados. Erro!
+Quando listas de definição não são marcadas corretamente, os leitores de tela podem produzir resultados confusos ou imprecisos. Aprenda a estruturar listas de definição da forma correta.
+Os itens da lista de definição estão unidos em elementos <dl> Erro!
+Os itens da lista de definição (<dt> e <dd>) precisam ficar unidos em um elemento <dl> pai para garantir que os leitores de tela consigam enunciá-los corretamente. Aprenda a estruturar listas de definição da forma correta.
+As listas contêm somente elementos <li> e elementos compatíveis com script (<script> e <template>). Erro!
+Os leitores de tela têm uma maneira específica de enunciar listas. Uma estrutura de lista adequada melhora os resultados do leitor de tela. Saiba mais sobre estruturas de lista adequadas.
+Itens de lista (<li>) estão contidos nos elementos pai <ul>, <ol> ou <menu> Erro!
+Os leitores de tela exigem que os itens de lista (<li>) estejam contidos em um elemento pai <ul>, <ol> ou <menu> para serem enunciados da forma correta. Saiba mais sobre estruturas de lista adequadas.
+Células em um elemento <table> que usam o atributo [headers] referem-se às células na mesma tabela. Erro!
+Os leitores de tela têm recursos para facilitar a navegação em tabelas. Para melhorar a experiência dos usuários de leitores de tela, as células <td> que usam o atributo [headers] devem referenciar apenas outras células na mesma tabela. Saiba mais sobre o atributo headers.
+Os elementos <th> e os elementos com [role="columnheader"/"rowheader"] têm as células de dados descritas. Erro!
+Os leitores de tela têm recursos para facilitar a navegação em tabelas. Garantir que os cabeçalhos das tabelas se refiram sempre a alguns conjuntos de células pode melhorar a experiência dos usuários de leitores de tela. Saiba mais sobre os cabeçalhos da tabela.
+Veja aqui oportunidades para melhorar a experiência de leitura de dados em tabelas ou listas usando tecnologia adaptativa, como um leitor de tela.
+Internacionalização e localização
+O elemento <html> tem um atributo [lang] Erro!
+Se uma página não especifica um atributo lang, o leitor de tela presume que a página está no idioma padrão escolhido pelo usuário na configuração. Se a página não está no idioma padrão, o leitor de tela pode ler o texto dela incorretamente. Saiba mais sobre o atributo lang.
+O elemento <html> tem um valor válido para o atributo [lang] Erro!
+A especificação de um idioma BCP 47 válido ajuda os leitores de tela a enunciar o texto corretamente. Aprenda a usar o atributo lang.
+Os atributos [lang] têm um valor válido Erro!
+A especificação de um idioma BCP 47 válido nos elementos ajuda a garantir que o texto seja pronunciado corretamente pelo leitor de tela. Aprenda a usar o atributo lang.
+O elemento <html> tem um atributo [xml:lang] com o mesmo idioma base que o atributo [lang]. Erro!
+Se a página da Web não especificar um idioma consistente, talvez o leitor de tela não anuncie o texto dela corretamente. Saiba mais sobre o atributo lang.
+Veja aqui oportunidades de melhorar a interpretação que usuários de diferentes localidades fazem do seu conteúdo.
+Práticas recomendadas
+Garantia e segurança
+Utiliza HTTPS Erro!
+Todos os sites precisam ser protegidos com HTTPS, mesmo aqueles que não lidam com dados confidenciais. Por isso, evite conteúdo misto, em que alguns recursos são carregados por HTTP mesmo quando o pedido inicial é exibido por HTTPS. O HTTPS evita que invasores falsifiquem ou escutem passivamente a comunicação entre o app e o usuário, além de ser um pré-requisito para HTTP/2 e várias novas APIs para plataforma da Web. Saiba mais sobre o HTTPS.
+O tráfego HTTP é redirecionado para HTTPS Erro!
+Redirecione todo o tráfego HTTP para HTTPS para garantir recursos da Web para todos os seus usuários. Saiba mais.
+Evita o pedido da permissão de geolocalização no carregamento de página Erro!
+Os usuários não confiam ou ficam confusos com sites que solicitam localização sem contexto. Vincule a solicitação a uma ação do usuário. Saiba mais sobre a permissão de geolocalização.
+Evita o pedido da permissão de notificação no carregamento de página Erro!
+Os usuários não confiam ou ficam confusos com sites que solicitam o envio de notificações sem contexto. Vincule a solicitação a gestos do usuário. Saiba mais sobre como receber permissões para notificações de forma responsável.
+Conferir se a CSP é eficaz contra ataques de XSS Erro!
+Uma Política de Segurança de Conteúdo (CSP) avançada reduz significativamente o risco de ataques de scripting em vários locais (XSS). Aprenda a usar uma CSP para evitar ataques de XSS.Fora da pontuação
+Usar uma política HSTS forte Erro!
+A implantação do cabeçalho HSTS reduz significativamente o risco de downgrade de conexões HTTP e ataques de escuta não autorizada. Recomendamos fazer um lançamento em etapas, começando com uma diretiva max-age baixa. Saiba mais sobre como usar uma política HSTS forte.Fora da pontuação
+Garantir o isolamento adequado da origem com COOP Erro!
+A Cross-Origin-Opener-Policy (COOP) pode ser usada para isolar a janela de nível superior de outros documentos, como pop-ups. Saiba mais sobre como implantar o cabeçalho COOP.Fora da pontuação
+Mitigar clickjacking com XFO ou CSP Erro!
+O cabeçalho X-Frame-Options (XFO) ou a diretiva frame-ancestors no cabeçalho Content-Security-Policy (CSP) controla onde uma página pode ser incorporada. Isso pode reduzir os ataques de clickjacking, bloqueando alguns ou todos os sites que incorporam a página. Saiba mais sobre como reduzir o clickjacking.Fora da pontuação
+Mitigar XSS baseado em DOM com Tipos Confiáveis Erro!
+A diretiva require-trusted-types-for no cabeçalho Content-Security-Policy (CSP) instrui os user agents a controlar os dados transmitidos para as funções de coletor do DOM XSS. Saiba mais sobre como mitigar XSS baseado em DOM com Tipos Confiáveis.Fora da pontuação
+Geral
+Evita APIs obsoletas Erro!
+As APIs obsoletas acabarão sendo removidas do navegador. Saiba mais sobre APIs descontinuadas.
+Evita cookies de terceiros Erro!
+Os cookies de terceiros podem ser bloqueados em alguns contextos. Saiba como se preparar para as restrições de cookies de terceiros.
+Nenhum erro do navegador registrado no console Erro!
+Erros registrados no console indicam problemas não resolvidos. Eles podem ocorrer devido a falhas de solicitação de rede e outras questões relacionadas ao navegador. Saiba mais sobre esses erros na auditoria de diagnóstico do console.
+Nenhum problema no painel Issues do Chrome Devtools Erro!
+Os problemas registrados no painel Issues do Chrome Devtools indicam problemas não resolvidos. Eles podem ser causados por falhas de solicitações da rede, controles de segurança insuficientes e outros problemas do navegador. Abra o painel "Issues" do Chrome DevTools para ver mais detalhes sobre cada problema.
+Bibliotecas JavaScript detectadas Erro!
+Todas as bibliotecas JavaScript de front-end detectadas na página. Saiba mais sobre essa auditoria de diagnóstico de detecção da biblioteca JavaScript.Fora da pontuação
+A página tem mapas de origem válidos Erro!
+Os mapas de origem traduzem códigos minificados para o código-fonte original. Isso ajuda os desenvolvedores na depuração durante a produção. Além disso, o Lighthouse pode fornecer mais insights. Implante mapas de origem para usar esses benefícios. Saiba mais sobre os mapas de origem.Fora da pontuação
+Experiência do usuário
+Permitir que os usuários colem dados nos campos de entrada Erro!
+Impedir a ação de colar uma entrada é uma prática não recomendada para a UX e que enfraquece a segurança ao bloquear os gerenciadores de senha.Saiba mais sobre os campos de entrada fáceis de usar.
+Exibe imagens com a proporção correta Erro!
+As dimensões de exibição da imagem devem corresponder à proporção. Saiba mais sobre proporções de imagens.
+Exibe imagens em resolução adequada Erro!
+As dimensões naturais da imagem precisam ser proporcionais ao tamanho da tela e à proporção de pixels para maximizar a nitidez. Aprenda a fornecer imagens responsivas.
+Compatibilidade de navegadores
+A página tem o doctype HTML Erro!
+A especificação de um doctype evita que o navegador alterne para o modo quirks. Saiba mais sobre a declaração do tipo de documento.
+Define corretamente o charset Erro!
+Uma declaração de codificação de caracteres é obrigatória. Ela pode ser feita com uma tag <meta> nos primeiros 1.024 bytes do HTML ou no cabeçalho de resposta HTTP de tipo de conteúdo. Saiba mais sobre como declarar a codificação de caracteres.
+SEO
+Essas verificações garantem que sua página siga orientações básicas para otimização de mecanismos de pesquisa. Há muitos outros fatores não avaliados pelo Lighthouse que ainda podem afetar sua classificação na pesquisa, como a performance nas Core Web Vitals. Saiba mais sobre os Fundamentos da Pesquisa Google.
+Os dados estruturados são válidos Erro!
+Rastreamento e indexação
+A página não está bloqueada para indexação Erro!
+A página tem um código de status HTTP bem-sucedido Erro!
+Os links são rastreáveis Erro!
+robots.txt é válido Erro!
+Para que seu app seja exibido nos resultados da pesquisa, é necessário que os rastreadores tenham acesso a ele.
+Práticas recomendadas para conteúdo
+O documento tem um elemento <title> Erro!
+O documento tem uma metadescrição Erro!
+Os links têm texto descritivo Erro!
+Os elementos de imagem têm atributos [alt] Erro!
+O documento tem um hreflang válido Erro!
+O documento tem um rel=canonical válido Erro!
+Formate seu HTML de maneira que permita que os rastreadores entendam melhor o conteúdo do seu app.

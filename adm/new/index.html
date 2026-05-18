@@ -13,9 +13,11 @@
 
   <link rel="stylesheet" href="/css/editor.css" />
   <link rel="stylesheet" href="/css/global.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet" />
 
   <script src="/js/base.js" defer></script>
+  <script src="/js/editor.js" defer></script>
 </head>
 <body>
   <main class="container">
@@ -25,22 +27,20 @@
         <div class="editor-actions">
           <input type="text" name="" placeholder="TÍTULO" id="titulo" />
           <div class="btn-group">
-            <button id="title-action"    onclick="format('heading', 'h2')">       <i class="material-icons">title</i></button>
-            <button id="bold-action"     onclick="format('bold')">                <i class="material-icons">format_bold</i></button>
-            <button id="italic-action"   onclick="format('italic')">              <i class="material-icons">format_italic</i></button>
-            <button id="link-action"     onclick="link()">                        <i class="material-icons">insert_link</i></button>
-            <button id="quote-action"    onclick="quote()">                       <i class="material-icons">format_quote</i></button>
-            <button id="bullet-action"   onclick="format('insertunorderedlist')"> <i class="material-icons">format_list_bulleted</i></button>
-            <button id="numbered-action" onclick="format('insertorderedlist')">   <i class="material-icons">format_list_numbered</i></button>
+            <button id="title-action"    type="button"> <i class="material-icons">title</i></button>
+            <button id="bold-action"     type="button"> <i class="material-icons">format_bold</i></button>
+            <button id="italic-action"   type="button"> <i class="material-icons">format_italic</i></button>
+            <button id="link-action"     type="button"> <i class="material-icons">insert_link</i></button>
+            <button id="quote-action"    type="button"> <i class="material-icons">format_quote</i></button>
+            <button id="bullet-action"   type="button"> <i class="material-icons">format_list_bulleted</i></button>
+            <button id="numbered-action" type="button"> <i class="material-icons">format_list_numbered</i></button>
           </div>
           <input type="text" name="" placeholder="CATEGORIA" id="categoria" />
         </div>
         <div class="text-zone"></div>
-        <button onclick="Postar()" id="b_postar">Postar!</button>
+        <button id="b_postar" type="button">Postar!</button>
       </section>
     </div>
   </main>
-
-  <script src="/js/editor.js"></script>
 </body>
 </html>

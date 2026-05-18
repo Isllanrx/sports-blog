@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 
 :root {
   --clr-futebol:    #12b80f;
@@ -251,7 +247,7 @@ main {
 
   .paths a, .home a {
     width: 100%;
-    padding: var(--space-4) 0;
+    padding: var(--space-6) 0;
     border-bottom: 1px solid #111;
   }
 }

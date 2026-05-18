@@ -1,22 +1,29 @@
 var DATA_URL = '/data/posts.json'
 
-window.addEventListener('load', function () {
-  document.querySelector('.text-zone').setAttribute('contenteditable', 'true')
-  document.querySelector('.text-zone').focus()
-})
-
 function format(command, value) {
   document.execCommand(command, false, value)
 }
 
 function link() {
   var url = window.prompt('Digite a URL')
-  document.execCommand('createLink', false, url)
+  if (url) document.execCommand('createLink', false, url)
 }
 
 function quote() {
   var selectedText = document.getSelection()
   document.execCommand('insertText', false, '"' + selectedText + '"')
+}
+
+function validaPost() {
+  var titulo = document.getElementById('titulo').value
+  var corpo = document.querySelector('.text-zone').innerText.trim()
+  var categoria = document.getElementById('categoria').value
+  
+  if (titulo && corpo && categoria) {
+    return true
+  }
+  alert('O título, o corpo e a categoria do post precisam estar preenchidos.')
+  return false
 }
 
 function Postar() {
@@ -65,14 +72,34 @@ function Postar() {
     })
 }
 
-function validaPost() {
-  if (
-    document.getElementById('titulo').value &&
-    document.querySelector('.text-zone').innerText.trim() &&
-    document.getElementById('categoria').value
-  ) {
-    return true
+function iniciaEditor() {
+  var zone = document.querySelector('.text-zone')
+  if (zone) {
+    zone.setAttribute('contenteditable', 'true')
+    zone.focus()
   }
-  alert('O título, o corpo e a categoria do post precisam estar preenchidos.')
-  return false
+
+  var bPostar = document.getElementById('b_postar')
+  if (bPostar) bPostar.addEventListener('click', Postar)
+
+  var actions = {
+    'title-action':    function() { format('heading', 'h2') },
+    'bold-action':     function() { format('bold') },
+    'italic-action':   function() { format('italic') },
+    'link-action':     link,
+    'quote-action':    quote,
+    'bullet-action':   function() { format('insertunorderedlist') },
+    'numbered-action': function() { format('insertorderedlist') }
+  }
+
+  for (var id in actions) {
+    var el = document.getElementById(id)
+    if (el) el.addEventListener('click', actions[id])
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', iniciaEditor)
+} else {
+  iniciaEditor()
 }

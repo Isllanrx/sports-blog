@@ -22,11 +22,13 @@ function createCardHTML(post, index, isFeatured) {
   var cardClass = isFeatured ? 'featured-card' : 'news-card'
   var imageClass = isFeatured ? 'featured-image' : 'card-image'
   var contentClass = isFeatured ? 'featured-content' : 'card-content'
+  var imgWidth = isFeatured ? '800' : '400'
+  var imgHeight = isFeatured ? '400' : '200'
 
   return [
     '<a href="/pages/postagens?id=' + index + '" class="' + cardClass + '">',
     '  <div class="' + imageClass + '">',
-    '    <img src="' + image + '" alt="' + post.titulo + '" loading="lazy">',
+    '    <img src="' + image + '" alt="' + post.titulo + '" width="' + imgWidth + '" height="' + imgHeight + '" loading="lazy">',
     '  </div>',
     '  <div class="' + contentClass + '">',
     '    <span class="badge ' + categoryClass + '">' + (post.categoria || 'Esporte') + '</span>',
