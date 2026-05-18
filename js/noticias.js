@@ -4,7 +4,7 @@ function extractFirstImage(html) {
   var div = document.createElement('div')
   div.innerHTML = html
   var img = div.querySelector('img')
-  return img ? img.src : '/assets/images/futebol-upscaled.png'
+  return img ? img.src : '/assets/images/futebol-upscaled.webp'
 }
 
 function createSnippet(html, length) {
