@@ -204,7 +204,6 @@
     max-width: 100%;
     right: auto;
     top: auto;
-    background-color: rgba(0, 0, 0, 0.55);
     padding: var(--space-4) var(--space-6);
     border-radius: var(--radius-md);
   }
