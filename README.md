@@ -1,4 +1,3 @@
-````md
 # Sports Blog
 
 A modern and responsive blog focused on sports news (Football, Basketball, and Volleyball), built using core web technologies. The project includes a dynamic news loading system and a simplified administrative panel.
@@ -113,8 +112,6 @@ To avoid the need for a complex database, administration is handled via data exp
 * Ramsés de Oliveira Martins
 * Gustavo Raasch Müller
 * Pedro Henrique dos Santos Amorim
-
----
 
 © 2023 - Academic Project
 
