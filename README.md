@@ -1,92 +1,122 @@
-# Blog de Esportes
+````md
+# Sports Blog
 
-Um blog moderno e responsivo focado em notícias esportivas (Futebol, Basquete e Vôlei), desenvolvido com tecnologias web fundamentais. O projeto conta com um sistema de carregamento dinâmico de notícias e um painel administrativo simplificado.
+A modern and responsive blog focused on sports news (Football, Basketball, and Volleyball), built using core web technologies. The project includes a dynamic news loading system and a simplified administrative panel.
 
 ---
 
-## Funcionalidades
+## Features
 
-- **Navegação por Categorias:** Páginas dedicadas para Futebol, Basquete e Vôlei.
-- **Feed de Notícias Dinâmico:** Carregamento automático de postagens via JSON.
-- **Leitura de Posts:** Sistema de visualização de artigos individuais via parâmetros de URL.
-- **Painel Administrativo:** Interface para criação e exclusão de postagens (gestão de dados local).
-- **Design Responsivo:** Adaptado para diferentes tamanhos de tela.
+- **Category Navigation:** Dedicated pages for Football, Basketball, and Volleyball.
+- **Dynamic News Feed:** Automatic post loading via JSON.
+- **Post Reading:** Individual article view system using URL parameters.
+- **Admin Panel:** Interface for creating and deleting posts (local data management).
+- **Responsive Design:** Optimized for multiple screen sizes.
 
-## Tecnologias
+---
 
-- **Markup:** HTML5 Semântico
-- **Estilos:** CSS3 (Flexbox & Grid)
-- **Lógica:** JavaScript Vanilla (ES6+)
-- **Dados:** JSON (Persistência local)
-- **Hospedagem:** Vercel
+## Tech Stack
 
-## Arquitetura
+- **Markup:** Semantic HTML5  
+- **Styling:** CSS3 (Flexbox & Grid)  
+- **Logic:** Vanilla JavaScript (ES6+)  
+- **Data Layer:** JSON (Local persistence)  
+- **Hosting:** Vercel  
+
+---
+
+## Architecture
 
 ```mermaid
 graph TD
-    UI[index.html] --> CAT[Categorias / Basquete, Futebol, Vôlei]
-    UI --> NEWS[Notícias / Feed Geral]
-    NEWS --> POST[Postagens / Leitura Individual]
+    UI[index.html] --> CAT[Categories / Basketball, Football, Volleyball]
+    UI --> NEWS[News / General Feed]
+    NEWS --> POST[Posts / Individual View]
     
     subgraph "Core Logic"
-        JS[js/base.js] -.-> |Injeção de Header/Footer| UI
+        JS[js/base.js] -.-> |Header/Footer Injection| UI
         DATA[(data/posts.json)] --> |Fetch| NEWS
         DATA --> |Fetch| POST
     end
 
     subgraph "Admin"
-        ADM[adm/new] --> |Exporta JSON| DATA
-        DEL[adm/delete] --> |Exporta JSON| DATA
+        ADM[adm/new] --> |Export JSON| DATA
+        DEL[adm/delete] --> |Export JSON| DATA
     end
-```
+````
 
-## Estrutura do Projeto
+---
+
+## Project Structure
 
 ```text
 Blog-Esporte/
-├── adm/             # Painel administrativo (CRUD manual)
-├── assets/          # Recursos estáticos (imagens e ícones)
-├── categorias/      # Páginas de modalidades específicas
-├── css/             # Folhas de estilo modulares
-├── data/            # Armazenamento de dados (JSON)
-├── js/              # Lógica da aplicação e manipulação do DOM
-├── pages/           # Páginas auxiliares (notícias, postagens, contatos)
-└── index.html       # Porta de entrada da aplicação
+├── adm/             # Admin panel (manual CRUD)
+├── assets/          # Static assets (images and icons)
+├── categorias/      # Category pages
+├── css/             # Modular stylesheets
+├── data/            # Data storage (JSON)
+├── js/              # Application logic and DOM manipulation
+├── pages/           # Auxiliary pages (news, posts, contact)
+└── index.html       # Application entry point
 ```
 
-## Como Executar
+---
 
-O projeto utiliza injeção dinâmica de componentes, portanto, requer um servidor local para funcionar corretamente.
+## Getting Started
 
-1. **Clone o repositório:**
+This project relies on dynamic component injection, so it requires a local server to run properly.
+
+1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/seu-usuario/Blog-Esporte.git
+   git clone https://github.com/your-username/Blog-Esporte.git
    ```
 
-2. **Inicie um servidor local:**
-   - Com **VS Code**: Use a extensão *Live Server*.
-   - Com **Python**: `python -m http.server 8000`
-   - Com **Node.js**: `npx serve .`
+2. **Start a local server:**
 
-3. **Acesse:** `http://localhost:8000`
+   * **VS Code:** Use the *Live Server* extension
+   * **Python:**
 
-## Administração
+     ```bash
+     python -m http.server 8000
+     ```
+   * **Node.js:**
 
-Para manter o projeto sem a necessidade de um banco de dados complexo, a administração funciona via exportação de dados:
-1. Acesse `/adm/new` ou `/adm/delete`.
-2. Realize a alteração desejada.
-3. O sistema baixará um novo arquivo `posts.json`.
-4. Substitua o arquivo existente em `data/posts.json` pelo novo.
+     ```bash
+     npx serve .
+     ```
+
+3. **Access the app:**
+
+   ```
+   http://localhost:8000
+   ```
+
+---
+
+## Administration
+
+To avoid the need for a complex database, administration is handled via data export:
+
+1. Access `/adm/new` or `/adm/delete`
+2. Perform the desired operation
+3. The system will download a new `posts.json` file
+4. Replace the existing file in `data/posts.json`
 
 ---
 
-## Equipe
+## Team
 
-- **Isllan Toso Pereira**
-- **Gabriel Bruno Oliveira Pereira**
-- **Ramsés de Oliveira Martins**
-- **Gustavo Raasch Müller**
-- **Pedro Henrique dos Santos Amorim**
+* Isllan Toso Pereira
+* Gabriel Bruno Oliveira Pereira
+* Ramsés de Oliveira Martins
+* Gustavo Raasch Müller
+* Pedro Henrique dos Santos Amorim
 
 ---
-© 2023 - Projeto Acadêmico
+
+© 2023 - Academic Project
+
+```
+```
